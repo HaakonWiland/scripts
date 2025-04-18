@@ -1,3 +1,6 @@
+# Blind SQL injection CTF from pwncollege 
+# Change characters, payload, and request-function if you want to use it on another problem 
+
 import requests
 import string 
 import math
