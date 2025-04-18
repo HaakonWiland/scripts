@@ -46,7 +46,7 @@ def binary_search(chars, letter=1, flag=''):
             
 
         chars = chars[:mid]
-        binary_search(chars=chars, letter=letter, flag=flag_temp)
+        return binary_search(chars=chars, letter=letter, flag=flag_temp)
 
    
 
